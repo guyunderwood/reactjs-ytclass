@@ -17,9 +17,10 @@ class HelloComponent2 extends React.Component{    // needed to start with capita
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <App />
   // <HelloComponent/>
   // </HelloComponent2>
-  <HelloComponent3/>
+  // <HelloComponent3/>
   
 );
 
