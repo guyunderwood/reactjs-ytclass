@@ -1,8 +1,8 @@
 import Item from "./Item";
-
+import './Trans.css'
 const Trans = () => {
   return (
-    <ul>
+    <ul className="item-list">
       <Item />
       <Item />
       <Item />

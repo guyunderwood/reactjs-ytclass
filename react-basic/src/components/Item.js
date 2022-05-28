@@ -1,3 +1,4 @@
+
 const Item = () => {
   const name = "Accomodation cost";
   const amount = 5000;
