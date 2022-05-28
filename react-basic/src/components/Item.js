@@ -1,11 +1,10 @@
-
-const Item = () => {
-  const name = "Accomodation cost";
-  const amount = 5000;
+//const Item = ({title, amout})   // same, no need to add const {title, amount} = props
+const Item = (props) => {
+  const {title,amount} = props;   //Destructuring
 
   return (
     <li>
-      {name} <span>-{amount}</span>
+      {title} <span>{amount}</span>
     </li>
   );
 };
